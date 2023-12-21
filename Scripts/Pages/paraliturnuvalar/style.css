@@ -1,0 +1,207 @@
+/* Add this to your existing CSS file */
+.navbar {
+  background-color: #0d2f54;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #0056b3;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.grid-item:hover {
+  border-color: #007BFF;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* Add the responsive navigation styles if needed */
+@media screen and (max-width: 1200px) {
+  .toggle {
+      display: block;
+  }
+  
+  ul {
+      position: fixed;
+      top: -400px;
+      z-index: 1;
+      margin-top: -15px;
+      right: 0;
+      left: 0;
+      width: 200px;
+      background-color: #222222;
+      display: inline-block;
+      transition: top .4s;
+      margin-left: 0;
+  }
+  
+  ul.show {
+      top: 60px;
+  }
+  
+  ul li {
+      top: 0;
+      width: 100%;
+      float: left;
+      text-align: center;
+  }
+  
+  ul li:first-child {
+      border-radius: 10px;
+      background-color: #1e3838;
+  }
+  
+  ul li:hover {
+      border-radius: 10px;
+      background-color: #1e3838;
+      color: #fff;
+  }
+  
+  /* Add more media query styles as needed */
+}
+
+/* Add the styles for the scroll-to-top button if needed */
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ff6600;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#scrollToTopBtn img {
+  width: 24px;
+  height: 24px;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #8edf8d;
+}
+
+
+.content {
+  flex: 1; /* Allow the content to expand and push the navbar to the bottom */
+  padding: 20px;
+}
+
+.bottom-navbar {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.navbar-item {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-item:hover {
+  opacity: 0.8;
+}
+
+
+/* Add this to your existing CSS or create a new section for button styles */
+.button-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.see-more-button {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.see-more-button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the button */
+.button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 12px 24px; /* Adjust padding as needed */
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* Adjust font size as needed */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Hover effect for the button */
+.button:hover {
+  background-color: #ff6600; /* Change color on hover */
+}
+
+/* Optional: Add a shadow to the button for depth */
+.button:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../YTAPI/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kartlar</title>
+    
+</head>
+<body>
+  <nav>
+    <label class="toggle">
+      <i class="fa fa-bars"></i>
+    </label>
+    <ul>
+      <li><a href="/Scripts/Pages/kartlar/index.html">Kartlar</a></li>
+      <li><a href="/Scripts/Pages/anasayfa/index.html">Ana Sayfa</a></li>
+      <li><a href="/Scripts/Pages/desteler/index.html">Desteler</a></li>
+      <li><a href="/Scripts/Pages/paraliturnuvalar/onhazirlik/index.html">Paralı Turnuvalar</a></li>
+      <li><a href="/Scripts/Pages/sohbet/index.html">Sohbet</a></li>
+      <div class="search-bar">
+        <input class="search-input" type="text" placeholder="Kart Ara..." id="searchInput">
+      </div>
+    </ul>
+    
+    <div class="socialtop">
+      <div class="top-social">
+        <a href="https://www.youtube.com/@seeok"> <i class="fa fa-youtube"></i></a>
+        <a href="https://www.twitch.tv/seeokofficial"> <i class="fa fa-twitch"></i></a>
+        <a href="https://www.instagram.com/_semih.kaya_/"> <i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/novaseeok"> <i class="fa fa-twitter"></i></a>
+      </div>
+    </div>
+    
+  </nav>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  
+
+  <div class="chat">
+    <script id="cid0020000353610943949" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 188px;height: 300px;">{"handle":"royaleturkiye1","arch":"js","styles":{"a":"336666","b":100,"c":"FFFFFF","d":"FFFFFF","k":"336666","l":"336666","m":"336666","n":"FFFFFF","p":"10","q":"336666","r":100,"pos":"br","cv":1,"cvbg":"336666","cvw":200,"cvh":30,"ticker":1,"fwtickm":1}}</script>  </div>
+    <button id="scrollToTopButton" title="Scroll to Top">Top</button>
+    <div class="header">
+      <h1>Kart Kategorisi</h1>
+      <p></p>
+    </div>
+  
+    <div class="deck-container">
+      <a class="card" href="siradankartlar/index.html">
+        <img class="photo" src="/Images/cataglog/siradan.png" alt="Ender">
+        <div class="name">Sıradan</div>
+      </a>
+      <a class="card" href="/Scripts/Pages/kartlar/enderkartlar/index.html">
+        <img class="photo" src="/Images/cataglog/ender.png" alt="Ender">
+        <div class="name">Ender</div>
+      </a>
+      <a class="card" href="/Scripts/Pages/kartlar/destansikartlar/index.html">
+        <img class="photo" src="/Images/cataglog/destansi.png" alt="Destansı">
+        <div class="name">Destansı</div>
+      </a>
+      <a class="card" href="/Scripts/Pages/kartlar/efsanevikartlar/index.html">
+        <img class="photo" src="/Images/cataglog/efsanevi.png" alt="Efsanevi">
+        <div class="name">Efsanevi</div>
+      </a>
+      <a class="card" href="/Scripts/Pages/kartlar/sampiyonkartlar/index.html">
+        <img class="photo" src="/Images/cataglog/sampiyon.png" alt="Şampiyon">
+        <div class="name">Şampiyon</div>
+      </a>
+      <a class="card" href="/Scripts/Pages/kartlar/evrimlikartlar/index.html">
+        <img class="photo" src="/Images/cataglog/evrimli.png" alt="Evrimli">
+        <div class="name">Evrimli</div>
+      </a>
+    </div>
+  
+  
+  
+  
+  
+  
+    <div class="header">
+    <h1>Sıradan Kartlar</h1>
+    <p></p>
+  </div>
+  
+
+  <div class="deck-container" id="cardContainer">
+    <a class="card developer" href="https://royaleapi.com/card/skeletons">
+        <img class="photo" src="/Images/cards/skeletons.png" alt="Ender">
+        <div class="name">İskeletler</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/ice-spirit">
+        <img class="photo" src="/Images/cards/ice-spirit.png" alt="Ender">
+        <div class="name">Buz Ruhu</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/fire-spirit">
+        <img class="photo" src="/Images/cards/fire-spirit.png" alt="Ender">
+        <div class="name">Ateş Ruhu</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/electro-spirit">
+        <img class="photo" src="/Images/cards/electro-spirit.png" alt="Ender">
+        <div class="name">Elektro Ruh</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/goblins">
+        <img class="photo" src="/Images/cards/goblins.png" alt="Ender">
+        <div class="name">Goblinler</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/bomber">
+        <img class="photo" src="/Images/cards/bomber.png" alt="Ender">
+        <div class="name">Bombacı</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/spear-goblins">
+        <img class="photo" src="/Images/cards/spear-goblins.png" alt="Ender">
+        <div class="name">Mızraklı Goblinler</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/bats">
+        <img class="photo" src="/Images/cards/bats.png" alt="Ender">
+        <div class="name">Yarasalar</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/zap">
+        <img class="photo" src="/Images/cards/zap.png" alt="Ender">
+        <div class="name">Çarpma</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/giant-snowball">
+        <img class="photo" src="/Images/cards/giant-snowball.png" alt="Ender">
+        <div class="name">Dev Kar Topu</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/archers">
+        <img class="photo" src="/Images/cards/archers.png" alt="Ender">
+        <div class="name">Okçular</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/minions">
+        <img class="photo" src="/Images/cards/minions.png" alt="Ender">
+        <div class="name">Minyonlar</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/goblin-gang">
+        <img class="photo" src="/Images/cards/goblin-gang.png" alt="Ender">
+        <div class="name">Goblin Çetesi</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/skeleton-barrel">
+        <img class="photo" src="/Images/cards/skeleton-barrel.png" alt="Ender">
+        <div class="name">İskelet Fıcısı</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/firecracker">
+        <img class="photo" src="/Images/cards/firecracker.png" alt="Ender">
+        <div class="name">Havai Fişekçi</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/cannon">
+        <img class="photo" src="/Images/cards/cannon.png" alt="Ender">
+        <div class="name">Top</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/arrows">
+        <img class="photo" src="/Images/cards/arrows.png" alt="Ender">
+        <div class="name">Oklar</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/royal-delivery">
+        <img class="photo" src="/Images/cards/royal-delivery.png" alt="Ender">
+        <div class="name">Kraliyet Paketi</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/skeleton-dragons">
+        <img class="photo" src="/Images/cards/skeleton-dragons.png" alt="Ender">
+        <div class="name">İskelet Ejderhalar</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/mortar">
+        <img class="photo" src="/Images/cards/mortar.png" alt="Ender">
+        <div class="name">Havan</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/tesla">
+        <img class="photo" src="/Images/cards/tesla.png" alt="Ender">
+        <div class="name">Tesla</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/barbarians">
+        <img class="photo" src="/Images/cards/barbarians.png" alt="Ender">
+        <div class="name">Barbarlar</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/minion-horde">
+        <img class="photo" src="/Images/cards/minion-horde.png" alt="Ender">
+        <div class="name">Minyon Sürüsü</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/rascals">
+        <img class="photo" src="/Images/cards/rascals.png" alt="Ender">
+        <div class="name">Serseriler</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/royal-giant">
+        <img class="photo" src="/Images/cards/royal-giant.png" alt="Ender">
+        <div class="name">Kraliyet Devi</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/elite-barbarians">
+        <img class="photo" src="/Images/cards/elite-barbarians.png" alt="Ender">
+        <div class="name">Elit Barbarlar</div>
+    </a>
+    <a class="card developer" href="https://royaleapi.com/card/royal-recruits">
+        <img class="photo" src="/Images/cards/royal-recruits.png" alt="Ender">
+        <div class="name">Muhafızlar</div>
+    </a>
+    </div>
+
+
+    <div class="header">
+      <h1>Ender Kartlar</h1>
+      <p></p>
+    </div>
+    
+  
+    <div class="deck-container" id="cardContainer">
+      <a class="card developer" href="https://royaleapi.com/card/heal-spirit">
+          <img class="photo" src="/Images/cards/heal-spirit.png" alt="Ender">
+          <div class="name">İyleştirici Ruh</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/ice-golem">
+          <img class="photo" src="/Images/cards/ice-golem.png" alt="Ender">
+          <div class="name">Buz Golemi</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/dart-goblin">
+          <img class="photo" src="/Images/cards/dart-goblin.png" alt="Ender">
+          <div class="name">Dart Goblini</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/elixir-golem">
+          <img class="photo" src="/Images/cards/elixir-golem.png" alt="Ender">
+          <div class="name">İksir Golemi</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/tombstone">
+          <img class="photo" src="/Images/cards/tombstone.png" alt="Ender">
+          <div class="name">Mezar Taşı</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/earthquake">
+          <img class="photo" src="/Images/cards/earthquake.png" alt="Ender">
+          <div class="name">Deprem</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/valkyrie">
+          <img class="photo" src="/Images/cards/valkyrie.png" alt="Ender">
+          <div class="name">Valkür</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/musketeer">
+          <img class="photo" src="/Images/cards/musketeer.png" alt="Ender">
+          <div class="name">Silahşör</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/mini-pekka">
+          <img class="photo" src="/Images/cards/mini-pekka.png" alt="Ender">
+          <div class="name">Mini Pekka</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/battle-ram">
+          <img class="photo" src="/Images/cards/battle-ram.png" alt="Ender">
+          <div class="name">Koçbaşı</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/zappies">
+          <img class="photo" src="/Images/cards/zappies.png" alt="Ender">
+          <div class="name">Şok Birliği</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/flying-machine">
+          <img class="photo" src="/Images/cards/flying-machine.png" alt="Ender">
+          <div class="name">Uçan Makine</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/battle-healer">
+          <img class="photo" src="/Images/cards/battle-healer.png" alt="Ender">
+          <div class="name">Şifacı</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/bomb-tower">
+          <img class="photo" src="/Images/cards/bomb-tower.png" alt="Ender">
+          <div class="name">Bomba Kulesi</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/furnace">
+          <img class="photo" src="/Images/cards/furnace.png" alt="Ender">
+          <div class="name">Fırın</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/goblin-cage">
+          <img class="photo" src="/Images/cards/goblin-cage.png" alt="Ender">
+          <div class="name">Goblin Kafesi</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/fireball">
+          <img class="photo" src="/Images/cards/fireball.png" alt="Ender">
+          <div class="name">Alev Topu</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/giant">
+          <img class="photo" src="/Images/cards/giant.png" alt="Ender">
+          <div class="name">Dev</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/wizard">
+          <img class="photo" src="/Images/cards/wizard.png" alt="Ender">
+          <div class="name">Büyücü</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/royal-hogs">
+          <img class="photo" src="/Images/cards/royal-hogs.png" alt="Ender">
+          <div class="name">Kraliyet Domuzları</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/goblin-hut">
+          <img class="photo" src="/Images/cards/goblin-hut.png" alt="Ender">
+          <div class="name">Goblin Kulübesi</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/inferno-tower">
+          <img class="photo" src="/Images/cards/inferno-tower.png" alt="Ender">
+          <div class="name">Felaket Kulesi</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/barbarian-hut">
+          <img class="photo" src="/Images/cards/barbarian-hut.png" alt="Ender">
+          <div class="name">Barbar Kulübesi</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/elixir-collector">
+          <img class="photo" src="/Images/cards/elixir-collector.png" alt="Ender">
+          <div class="name">İksir Toplayıcı</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/rocket">
+          <img class="photo" src="/Images/cards/rocket.png" alt="Ender">
+          <div class="name">Roket</div>
+      </a>
+      <a class="card developer" href="https://royaleapi.com/card/three-musketeers">
+          <img class="photo" src="/Images/cards/three-musketeers.png" alt="Ender">
+          <div class="name">Üç Silahşör</div>
+      </a>
+      </div>
+  
+  
+      
+      <div class="header">
+        <h1>Destansı Kartlar</h1>
+        <p></p>
+      </div>
+      
+    
+      <div class="deck-container" id="cardContainer">
+        <a class="card developer" href="https://royaleapi.com/card/mirror">
+            <img class="photo" src="/Images/cards/mirror.png" alt="Ender">
+            <div class="name">Ayna</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/wall-breakers">
+            <img class="photo" src="/Images/cards/wall-breakers.png" alt="Ender">
+            <div class="name">Duvar Yıkıcıları</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/rage">
+            <img class="photo" src="/Images/cards/rage.png" alt="Ender">
+            <div class="name">Öfke</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/goblin-barrel">
+            <img class="photo" src="/Images/cards/goblin-barrel.png" alt="Ender">
+            <div class="name">Barbar Varili</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/skeleton-army">
+            <img class="photo" src="/Images/cards/skeleton-army.png" alt="Ender">
+            <div class="name">İskelet Ordusu</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/guards">
+            <img class="photo" src="/Images/cards/guards.png" alt="Ender">
+            <div class="name">Korumalar</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/goblin-barrel">
+            <img class="photo" src="/Images/cards/goblin-barrel.png" alt="Ender">
+            <div class="name">Goblin Varili</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/tornado">
+            <img class="photo" src="/Images/cards/tornado.png" alt="Ender">
+            <div class="name">Kasırga</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/clone">
+            <img class="photo" src="/Images/cards/clone.png" alt="Ender">
+            <div class="name">Klon</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/baby-dragon">
+            <img class="photo" src="/Images/cards/baby-dragon.png" alt="Ender">
+            <div class="name">Yavru Ejderha</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/dark-prince">
+            <img class="photo" src="/Images/cards/dark-prince.png" alt="Ender">
+            <div class="name">Kara Prens</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/hunter">
+            <img class="photo" src="/Images/cards/hunter.png" alt="Ender">
+            <div class="name">Avcı</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/goblin-drill">
+            <img class="photo" src="/Images/cards/goblin-drill.png" alt="Ender">
+            <div class="name">Köstebek</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/freeze">
+            <img class="photo" src="/Images/cards/freeze.png" alt="Ender">
+            <div class="name">Dondurma</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/poison">
+            <img class="photo" src="/Images/cards/poison.png" alt="Ender">
+            <div class="name">Zehir</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/balloon">
+            <img class="photo" src="/Images/cards/balloon.png" alt="Ender">
+            <div class="name">Balon</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/witch">
+            <img class="photo" src="/Images/cards/witch.png" alt="Ender">
+            <div class="name">Cadı</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/prince">
+            <img class="photo" src="/Images/cards/prince.png" alt="Ender">
+            <div class="name">Prens</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/bowler">
+            <img class="photo" src="/Images/cards/bowler.png" alt="Ender">
+            <div class="name">Atıcı</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/executioner">
+            <img class="photo" src="/Images/cards/executioner.png" alt="Ender">
+            <div class="name">Cellat</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/cannon-cart">
+            <img class="photo" src="/Images/cards/cannon-cart.png" alt="Ender">
+            <div class="name">Top Arabası</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/electro-dragon">
+            <img class="photo" src="/Images/cards/electro-dragon.png" alt="Ender">
+            <div class="name">Elektro Ejderha</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/giant-skeleton">
+            <img class="photo" src="/Images/cards/giant-skeleton.png" alt="Ender">
+            <div class="name">Dev İskelet</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/goblin-giant">
+            <img class="photo" src="/Images/cards/goblin-giant.png" alt="Ender">
+            <div class="name">Dev Goblin</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/x-bow">
+            <img class="photo" src="/Images/cards/x-bow.png" alt="Ender">
+            <div class="name">X-Yayı</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/lightning">
+            <img class="photo" src="/Images/cards/lightning.png" alt="Ender">
+            <div class="name">Yıldırım</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/electro-giant">
+            <img class="photo" src="/Images/cards/electro-giant.png" alt="Ender">
+            <div class="name">Elektro Dev</div>
+        </a>
+        <a class="card developer" href="https://royaleapi.com/card/golem">
+            <img class="photo" src="/Images/cards/golem.png" alt="Ender">
+            <div class="name">Golem</div>
+        </a>
+    
+        </div>
+    
+
+        <div class="header">
+          <h1>Efsanevi Kartlar</h1>
+          <p></p>
+        </div>
+        
+      
+        <div class="deck-container" id="cardContainer">
+          <a class="card developer" href="https://royaleapi.com/card/the-log">
+              <img class="photo" src="/Images/cards/the-log.png" alt="Ender">
+              <div class="name">Tomruk</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/ice-wizard">
+              <img class="photo" src="/Images/cards/ice-wizard.png" alt="Ender">
+              <div class="name">Buz Büyücüsü</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/princess">
+              <img class="photo" src="/Images/cards/princess.png" alt="Ender">
+              <div class="name">Prenses</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/miner">
+              <img class="photo" src="/Images/cards/miner.png" alt="Ender">
+              <div class="name">Madenci</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/bandit">
+              <img class="photo" src="/Images/cards/bandit.png" alt="Ender">
+              <div class="name">Haydut</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/royal-ghost">
+              <img class="photo" src="/Images/cards/royal-ghost.png" alt="Ender">
+              <div class="name">Kraliyet Hayaleti</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/fisherman">
+              <img class="photo" src="/Images/cards/fisherman.png" alt="Ender">
+              <div class="name">Balıkcı</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/lumberjack">
+              <img class="photo" src="/Images/cards/lumberjack.png" alt="Ender">
+              <div class="name">Oduncu</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/inferno-dragon">
+              <img class="photo" src="/Images/cards/inferno-dragon.png" alt="Ender">
+              <div class="name">Cehennem Ejderhası</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/electro-wizard">
+              <img class="photo" src="/Images/cards/electro-wizard.png" alt="Ender">
+              <div class="name">Elektro Büyücü</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/night-witch">
+              <img class="photo" src="/Images/cards/night-witch.png" alt="Ender">
+              <div class="name">Gece Cadısı</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/magic-archer">
+              <img class="photo" src="/Images/cards/magic-archer.png" alt="Ender">
+              <div class="name">Büyülü Okçu</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/mother-witch">
+              <img class="photo" src="/Images/cards/mother-witch.png" alt="Ender">
+              <div class="name">Yaşlı Cadı</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/phoenix">
+              <img class="photo" src="/Images/cards/phoenix.png" alt="Ender">
+              <div class="name">Anka Kuşu</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/ram-rider">
+              <img class="photo" src="/Images/cards/ram-rider.png" alt="Ender">
+              <div class="name">Koç Binicisi</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/graveyard">
+              <img class="photo" src="/Images/cards/graveyard.png" alt="Ender">
+              <div class="name">Mezarlık</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/sparky">
+              <img class="photo" src="/Images/cards/sparky.png" alt="Ender">
+              <div class="name">Kıvılcım</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/lava-hound">
+              <img class="photo" src="/Images/cards/lava-hound.png" alt="Ender">
+              <div class="name">Lav Tazısı</div>
+          </a>
+          <a class="card developer" href="https://royaleapi.com/card/mega-knight">
+              <img class="photo" src="/Images/cards/mega-knight.png" alt="Ender">
+              <div class="name">Mega Şovalye</div>
+          </a>
+          </div>
+      
+
+
+
+          <div class="header">
+            <h1>Şampiyon Kartlar</h1>
+            <p></p>
+          </div>
+          
+        
+          <div class="deck-container" id="cardContainer">
+            <a class="card developer" href="https://royaleapi.com/card/mighty-miner">
+                <img class="photo" src="/Images/cards/mighty-miner.png" alt="Ender">
+                <div class="name">Güçlü Madenci</div>
+            </a>
+            <a class="card developer" href="https://royaleapi.com/card/skeleton-king">
+                <img class="photo" src="/Images/cards/skeleton-king.png" alt="Ender">
+                <div class="name">İskelet Kral</div>
+            </a>
+            <a class="card developer" href="https://royaleapi.com/card/golden-knight">
+                <img class="photo" src="/Images/cards/golden-knight.png" alt="Ender">
+                <div class="name">Altın Şovalye</div>
+            </a>
+            <a class="card developer" href="https://royaleapi.com/card/archer-queen">
+                <img class="photo" src="/Images/cards/archer-queen.png" alt="Ender">
+                <div class="name">Okçu Kraliçe</div>
+            </a>
+            <a class="card developer" href="https://royaleapi.com/card/monk">
+                <img class="photo" src="/Images/cards/monk.png" alt="Ender">
+                <div class="name">Keşiş</div>
+            </a>
+            </div>
+        
+            <div class="header">
+              <h1>Evrimli Kartlar</h1>
+              <p></p>
+            </div>
+            
+          
+            <div class="deck-container" id="cardContainer">
+              <a class="card developer" href="https://royaleapi.com/card/knight-ev1">
+                  <img class="photo" src="/Images/cards/Knight_evolution_card.png" alt="Ender">
+                  <div class="name">Evrimli Şovalye</div>
+              </a>
+              <a class="card developer" href="https://royaleapi.com/card/barbarians-ev1">
+                  <img class="photo" src="/Images/cards/barbarians-ev1.png" alt="Ender">
+                  <div class="name">Evrimli Barbarlar</div>
+              </a>
+              <a class="card developer" href="https://royaleapi.com/card/skeletons-ev1">
+                  <img class="photo" src="/Images/cards/skeletons-ev1.png" alt="Ender">
+                  <div class="name">Evrimli İskeletler</div>
+              </a>
+              <a class="card developer" href="https://royaleapi.com/card/firecracker-ev1">
+                  <img class="photo" src="/Images/cards/firecracker-ev1.png" alt="Ender">
+                  <div class="name">Evrimli Fişekçi</div>
+              </a>
+              <a class="card developer" href="https://royaleapi.com/card/royal-giant-ev1">
+                  <img class="photo" src="/Images/cards/royal-giant-ev1.png" alt="Ender">
+                  <div class="name">Evrimli Kraliyet Devi</div>
+              </a>
+            </div>      
+          
+            <div class="content">
+                <!-- Your website content goes here -->
+              </div>
+              
+              <nav class="bottom-navbar">
+                <a href="#" class="navbar-item" id="youtube">
+                    <img src="/Images/icons/icons8-youtube-48.png" alt="YouTube">
+                </a>
+                <a href="#" class="navbar-item" id="twitch">
+                    <img src="/Images/icons/icons8-twitch-48.png" alt="Twitch">
+                </a>
+                <a href="#" class="navbar-item" id="discord">
+                    <img src="/Images/icons/icons8-discord-100.png" alt="Discord">
+                </a>
+              </nav>
+
+
+<!-- Add the scroll-to-top button -->
+<button id="scrollToTopBtn" title="Scroll to Top">
+    <img src="/Images/icons/icons8-scroll-up-64.png" alt="Scroll to Top">
+  </button>
+<script src="main.js"></script>
+</body>
+</html>
